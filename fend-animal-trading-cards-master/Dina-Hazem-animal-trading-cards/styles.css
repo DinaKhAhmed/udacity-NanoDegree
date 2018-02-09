@@ -1,0 +1,56 @@
+/* add your CSS here */
+
+body {
+    font-size: 18px;
+    font-family: arial;
+}
+
+body>div:first-child {
+    width: 300px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 8px 6px 20px 0 #eee;
+}
+
+.card-info {
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.85em;
+}
+
+img {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 4px 0;
+}
+
+ul li:last-child {
+    padding-top: 4px;
+    padding-bottom: 0;
+}
+
+ul span:first-child {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 0.95em;
+}
+
+.card-info>p:first-child {
+    font-style: italic;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
