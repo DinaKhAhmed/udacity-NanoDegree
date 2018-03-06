@@ -21,9 +21,8 @@ Game Developed using ES6, CSS and HTML.
 
 ### Game Rules
 
--	The aim of the game is to deliver the cute girl to the other side were the ater is.
+-	The aim of the game is to deliver the cute girl to the other side were the water exists.
 -	Don't touch bugs or you are going to start over.
--	Avoid touching bugs. 
 -	Have FUN :)
 
 
