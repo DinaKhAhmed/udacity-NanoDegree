@@ -21,7 +21,7 @@ $(function () {
             expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
         });
-        
+
         //check that every feed has URL and not empty
         it('Ensures that every feed has a URL defined', function () {
             allFeeds.forEach(function (feed) {
@@ -41,7 +41,7 @@ $(function () {
 
     /* TODO: Write a new test suite named "The menu" */
     describe('The menu', function () {
-       //check if the first state of the menu is hidden
+        //check if the first state of the menu is hidden
         it('Is hidden by default', function () {
             expect($('body').hasClass('menu-hidden')).toBeTruthy();
         });
@@ -90,7 +90,7 @@ $(function () {
                     newContent = $('.feed').text();
                     // console.log(newContent);
                     done();
-                })
+                });
             });
         });
 
