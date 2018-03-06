@@ -83,12 +83,10 @@ $(function () {
             loadFeed(0, function () {
                 //fetch the content of allfeeds[0]
                 oldContent = $('.feed').text();
-                // console.log(oldContent);
                 //async loadfeed function called again with diffrent url
                 loadFeed(1, function () {
                     //fetch the content of allfeeds[1]
                     newContent = $('.feed').text();
-                    // console.log(newContent);
                     done();
                 });
             });
