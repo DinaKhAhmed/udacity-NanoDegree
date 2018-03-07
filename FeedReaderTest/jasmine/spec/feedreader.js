@@ -39,7 +39,7 @@ $(function () {
     });
 
 
-    /* TODO: Write a new test suite named "The menu" */
+    /* Test Suite for "The menu" */
     describe('The menu', function () {
         //check if the first state of the menu is hidden
         it('Is hidden by default', function () {
@@ -57,7 +57,7 @@ $(function () {
     });
 
 
-    /* TODO: Write a new test suite named "Initial Entries" */
+    /* Test Suite for "Initial Entries" */
     describe('Initial Entries', function () {
         //this will be excuted befor runing the spec
         beforeEach(function (done) {
@@ -74,7 +74,7 @@ $(function () {
         });
 
     });
-    /* TODO: Write a new test suite named "New Feed Selection" */
+    /* Test Suite for "New Feed Selection" */
     describe('New Feed Selection', function () {
         var oldContent;
         var newContent;
