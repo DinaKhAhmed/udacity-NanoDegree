@@ -9,9 +9,9 @@ var paths = {
 	scripts: ['src/js/*.js', 'src/js/*/*.js'],
 	styles: ['src/css/*.css', 'src/css/*/*.css'],
 	content: ['src/*.html'],
-	copy: ['src/*.ico']
+	copy: ['src/js/*.json']
 }
- 
+
 
 // Uglifies js files and outputs them to dist/js
 gulp.task('scripts', function () {
@@ -37,14 +37,14 @@ gulp.task('content', function () {
 // Copy the .ico file to dist
 gulp.task('copy', function () {
 	return gulp.src(paths.copy)
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('dist/js'));
 });
 
 // Watches for changes and execute appropriate tasks
 gulp.task('watch', function () {
-	gulp.watch('src/js/*.js', ['scripts']);
-	gulp.watch('src/css/*.css', ['styles']);
-	gulp.watch('src/*.html', ['content']);
+	gulp.watch(paths.scripts, ['scripts']);
+	gulp.watch(paths.styles, ['styles']);
+	gulp.watch(paths.content, ['content']);
 });
 
 gulp.task('default', ['scripts', 'styles', 'content', 'copy', 'watch']);

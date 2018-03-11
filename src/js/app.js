@@ -72,7 +72,7 @@ var configureMapData = function (hotelItem, map) {
         icon: pinIcon,
         animation: google.maps.Animation.DROP,
         title: this.title()
-    });
+    });  
     markersPosition.push(marker.position);
     // Keeps track of whether or not this configureMapData's Info Window is open
     this.infoWindowOpen = false;
