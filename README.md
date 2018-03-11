@@ -29,7 +29,7 @@ A Neighborhood Map that shows top rated Hotels in Alexandria, Egypt.
 1. Download or clone git repo.
 2. open Folder, then right click and choose 'Git Bash Here' Command.
 3. run `npm i http-server`, this is a really cool Plugin that allows you to Create a Http server on your local machine, it saved Main Data displayed on the Map came from a local JSON file, to Read mor About it Check [this](https://www.npmjs.com/package/http-server).
-4. Now go to dist folder and repeat step 2, then run `http-server -c-1`
+4. Now go to src folder and repeat step 2, then run `http-server -c-1`
 5. Open [http:/localhost:8080](http:/localhost:8080) and check the App.
 
 
