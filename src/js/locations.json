@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Four Seasons Hotel Alexandria at San Stefano",
+        "lat": "31.22704",
+        "long": "29.94624",
+        "iconColor": "#f48c36",
+        "venueID": "4c1a45250137952155aa46f3"
+    },
+    {
+        "title": "Sheraton Montazah Hotel",
+        "lat": "31.28116",
+        "long": "30.011483",
+        "iconColor": "#f4f336",
+        "venueID": "4cbc538f7a5d9eb0f45a31e9"
+    },
+    {
+        "title": "Helnan Palestine Hotel",
+        "lat": "31.288627",
+        "long": "30.018049",
+        "iconColor": "#36b4f4",
+        "venueID": "4c77811c923ba143954167e6"
+    },
+    {
+        "title": "Paradise Inn Beach Resort",
+        "lat": "31.28893",
+        "long": "30.025023",
+        "iconColor": "#36f4d6",
+        "venueID": "4c44b677f0bdd13ae9f6c9cc"
+    },
+    {
+        "title": "Hilton Alexandria Corniche",
+        "lat": "31.261705",
+        "long": "29.983805",
+        "iconColor": "#7df436",
+        "venueID": "50d03296e4b019a48dbd4296"
+    }
+]
