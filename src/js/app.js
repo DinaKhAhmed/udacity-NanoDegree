@@ -34,12 +34,7 @@ var configureMapData = function (hotelItem, map) {
     var foursquareURL = "https://api.foursquare.com/v2/venues/" + this.venueID() +
         '?client_id=' + clientID + '&client_secret=' + clientSecret + '&v=20180311';
 
-
-    var map;
-
-
-
-    $.ajax({
+        $.ajax({
         url: foursquareURL,
         dataType: 'jsonp',
         success: function (data) {
